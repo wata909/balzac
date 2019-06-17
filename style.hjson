@@ -72,6 +72,7 @@
       source: v
       source-layer: fude
       minzoom: 13
+      maxzoom: 16
       paint: {
         fill-color: [
           rgb
@@ -101,6 +102,20 @@
       source-layer: fude
       minzoom: 8
       maxzoom: 13
+      paint: {
+        fill-color: [
+          rgba
+          255
+          255
+          0
+          0.5
+        ]
+    {
+      id: fude16
+      type: fill
+      source: v16
+      source-layer: fude
+      minzoom: 16
       paint: {
         fill-color: [
           rgba
