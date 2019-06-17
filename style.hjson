@@ -110,7 +110,9 @@
           0
           0.5
         ]
-    {
+      }
+    }
+     {
       id: fude16
       type: fill
       source: v16
