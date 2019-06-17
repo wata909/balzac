@@ -9,10 +9,19 @@
     v: {
       type: vector
       tiles: [
-        https://wata909.github.io/maff_fude_z16/mvt/{z}/{x}/{y}.pbf
+        https://wata909.github.io/maff_fude/mvt/{z}/{x}/{y}.pbf
       ]
       attribution: 農林水産省
       minzoom: 13
+      maxzoom: 13
+    }
+    v16: {
+      type: vector
+      tiles: [
+        https://wata909.github.io/maff_fude_z16/mvt/{z}/{x}/{y}.pbf
+      ]
+      attribution: 農林水産省
+      minzoom: 16
       maxzoom: 16
     }
     v8: {
