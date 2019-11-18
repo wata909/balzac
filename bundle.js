@@ -94,7 +94,13 @@ map.on('mouseleave', 'fude16', function () {
   map.getCanvas().style.cursor = '';
   popup.remove();
 });
-
+// Add geolocate control to the map.
+map.addControl(new mapboxgl.GeolocateControl({
+  positionOptions: {
+  enableHighAccuracy: true
+  },
+  trackUserLocation: true
+}));
 //add to here
 
 },{}]},{},[1]);
